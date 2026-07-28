@@ -107,7 +107,6 @@
     <Compile Include="Assets/Scripts/Boss/BossTrigger.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets/Scripts/DoorTrigger.cs" />
     <Compile Include="Assets/Scripts/Gun/GunRecoil.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
@@ -124,10 +123,12 @@
     <Compile Include="Assets/Scripts/GravityUtils.cs" />
     <Compile Include="Assets/Scripts/WeaponUI.cs" />
     <Compile Include="Assets/Scripts/GravityWellInteraction.cs" />
+    <Compile Include="Assets/Scripts/Doors/Door.cs" />
     <Compile Include="Assets/Scripts/IDamageable.cs" />
     <Compile Include="Assets/Scripts/Constants.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/Scripts/Doors/DoorTrigger.cs" />
     <Compile Include="Assets/Scripts/Gun/GunReloader.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/PlayerConfig.cs" />
     <Compile Include="Assets/Scripts/Player/Player.cs" />
@@ -138,7 +139,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
-    <Compile Include="Assets/Scripts/Door.cs" />
     <Compile Include="Assets/Scripts/DamageButton.cs" />
     <Compile Include="Assets/Scripts/Bullet/Enemy kill.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
