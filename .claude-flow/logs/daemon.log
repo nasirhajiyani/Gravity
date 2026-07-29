@@ -130,3 +130,5 @@
 [2026-07-29T15:34:52.995Z] [INFO] Worker harness deferred: Memory too low: 0.5% free
 [2026-07-29T15:35:51.530Z] [INFO] Worker testgaps deferred: Memory too low: 0.6% free
 [2026-07-29T15:43:35.078Z] [INFO] Worker audit deferred: Memory too low: 0.5% free
+[2026-07-29T15:48:34.966Z] [INFO] Worker map deferred: Memory too low: 0.5% free
+[2026-07-29T15:48:34.972Z] [INFO] Worker optimize deferred: Memory too low: 0.5% free
