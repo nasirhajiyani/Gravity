@@ -1,0 +1,15 @@
+{
+  "id": "session-1785316894962",
+  "startedAt": "2026-07-29T09:21:34.962Z",
+  "cwd": "/Users/nasir/Gravity",
+  "context": {},
+  "metrics": {
+    "edits": 0,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "restoredAt": "2026-07-29T09:43:44.636Z",
+  "endedAt": "2026-07-29T09:43:46.199Z",
+  "duration": 1331237
+}
