@@ -75,7 +75,9 @@ public class GravityWellInteraction : MonoBehaviour
     private void DeactivatePreview()
     {
         if (_gravityWellPreview.gameObject.activeSelf)
+        {
             _gravityWellPreview.gameObject.SetActive(false);
+        }
     }
 
     private void DeactivateAimLine()
