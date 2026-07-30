@@ -520,3 +520,11 @@
 [2026-07-30T15:07:22.905Z] [INFO] Worker optimize completed in 40ms
 [2026-07-30T15:07:22.917Z] [INFO] Worker consolidate completed in 42ms
 [2026-07-30T15:07:22.929Z] [INFO] Worker audit completed in 43ms
+[2026-07-30T15:10:22.506Z] [INFO] Starting worker: testgaps (1/2 concurrent)
+[2026-07-30T15:10:22.508Z] [INFO] Worker testgaps completed in 17ms
+[2026-07-30T15:11:22.520Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-07-30T15:11:22.523Z] [INFO] Worker optimize completed in 17ms
+[2026-07-30T15:14:22.680Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-07-30T15:14:22.681Z] [INFO] Worker audit completed in 15ms
+[2026-07-30T15:22:22.605Z] [INFO] Worker map deferred: Memory too low: 3.4% free
+[2026-07-30T15:24:22.703Z] [INFO] Worker audit deferred: Memory too low: 0.5% free
