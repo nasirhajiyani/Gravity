@@ -8327,7 +8327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5b2bb31754a36a498546b3285a66703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraShaker
-  _gun: {fileID: 0}
+  _gun: {fileID: 336504597}
   _shakeDuration: 0.025
   _shakeMagnitude: 0.05
 --- !u!114 &519420035
@@ -31495,7 +31495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -31551,7 +31551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9238b47a418e4274ca083e1de80adb28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadBar
-  _target: {fileID: 0}
+  _target: {fileID: 973366596}
   _offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1188490864
 GameObject:
