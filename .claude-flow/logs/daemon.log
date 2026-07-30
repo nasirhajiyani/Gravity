@@ -471,3 +471,8 @@
 [2026-07-30T14:14:22.656Z] [INFO] Starting worker: optimize (2/2 concurrent)
 [2026-07-30T14:14:22.657Z] [INFO] Worker testgaps completed in 25ms
 [2026-07-30T14:14:22.669Z] [INFO] Worker optimize completed in 23ms
+[2026-07-30T14:22:22.544Z] [INFO] Worker map deferred: Memory too low: 1.0% free
+[2026-07-30T14:24:22.644Z] [INFO] Worker audit deferred: Memory too low: 3.3% free
+[2026-07-30T14:26:22.494Z] [INFO] Worker optimize deferred: Memory too low: 2.0% free
+[2026-07-30T14:28:22.471Z] [INFO] Worker consolidate deferred: Memory too low: 0.9% free
+[2026-07-30T14:30:22.487Z] [INFO] Worker testgaps deferred: Memory too low: 0.7% free
