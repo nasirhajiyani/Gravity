@@ -7,11 +7,16 @@ public class Mover : MonoBehaviour
     private float _speed;
     private float _interpolationSpeed;
 
+    //private Animator _animator;
+
     public void Initialize(Rigidbody2D rigidbody, float speed, float interpolationSpeed)
     {
         _rigidbody = rigidbody;
         _speed = speed;
         _interpolationSpeed = interpolationSpeed;
+
+        //_animator = GetComponent<Animator>();
+        //_animator.speed = speed;
     }
 
     public void Move(Vector2 moveDirection, GravityDirection gravityDirection)

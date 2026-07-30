@@ -221,3 +221,24 @@
 [2026-07-29T21:35:36.694Z] [INFO] Stopped worker: backup
 [2026-07-29T21:35:36.694Z] [INFO] Stopped worker: harness
 [2026-07-29T21:35:36.729Z] [INFO] Daemon stopped
+[2026-07-30T10:22:22.277Z] [INFO] AI workers disabled (default) - all workers run local-only. Enable with `daemon start --headless`, daemon.aiWorkers.enabled=true, or RUFLO_DAEMON_AI_WORKERS=1 (#2661)
+[2026-07-30T10:22:22.278Z] [INFO] Scheduled map (interval: 900s, first run in 0s)
+[2026-07-30T10:22:22.278Z] [INFO] Scheduled audit (interval: 600s, first run in 120s)
+[2026-07-30T10:22:22.278Z] [INFO] Scheduled optimize (interval: 900s, first run in 240s)
+[2026-07-30T10:22:22.278Z] [INFO] Scheduled consolidate (interval: 1800s, first run in 360s)
+[2026-07-30T10:22:22.278Z] [INFO] Scheduled testgaps (interval: 1200s, first run in 480s)
+[2026-07-30T10:22:22.278Z] [INFO] Scheduled backup (interval: 86400s, first run in 600s)
+[2026-07-30T10:22:22.278Z] [INFO] Scheduled harness (interval: 21600s, first run in 720s)
+[2026-07-30T10:22:22.278Z] [INFO] Lifecycle monitor active (workspace-removal, ttl=43200s)
+[2026-07-30T10:22:22.293Z] [INFO] Daemon started (PID: 6943, CPUs: 12, workers: 7, maxCpuLoad: 9.600000000000001, minFreeMemoryPercent: 5%)
+[2026-07-30T10:22:22.294Z] [INFO] Worker map deferred: Memory too low: 1.0% free
+[2026-07-30T10:24:22.280Z] [INFO] Worker audit deferred: Memory too low: 1.8% free
+[2026-07-30T10:26:22.281Z] [INFO] Worker optimize deferred: Memory too low: 0.4% free
+[2026-07-30T10:28:22.280Z] [INFO] Worker consolidate deferred: Memory too low: 0.4% free
+[2026-07-30T10:30:22.282Z] [INFO] Worker testgaps deferred: Memory too low: 1.7% free
+[2026-07-30T10:32:22.280Z] [INFO] Worker backup deferred: Memory too low: 0.7% free
+[2026-07-30T10:34:22.281Z] [INFO] Worker harness deferred: Memory too low: 0.9% free
+[2026-07-30T10:34:22.283Z] [INFO] Worker audit deferred: Memory too low: 0.9% free
+[2026-07-30T10:37:22.254Z] [INFO] Worker map deferred: Memory too low: 1.7% free
+[2026-07-30T10:41:22.241Z] [INFO] Worker optimize deferred: Memory too low: 0.6% free
+[2026-07-30T10:44:22.238Z] [INFO] Worker audit deferred: Memory too low: 0.6% free

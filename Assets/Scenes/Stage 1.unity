@@ -2958,6 +2958,7 @@ GameObject:
   - component: {fileID: 373351757}
   - component: {fileID: 373351759}
   - component: {fileID: 373351760}
+  - component: {fileID: 373351761}
   m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
@@ -2984,6 +2985,7 @@ MonoBehaviour:
   _gravityInverter: {fileID: 1742480220}
   _groundChecker: {fileID: 2019416903}
   _wallChecker: {fileID: 1615748454}
+  animator: {fileID: 373351761}
 --- !u!50 &373351745
 Rigidbody2D:
   serializedVersion: 5
@@ -3127,8 +3129,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.049385577, y: -0.1726023}
-  m_Size: {x: 0.52908784, y: 1.4812338}
+  m_Offset: {x: -0.049385577, y: -0.023960114}
+  m_Size: {x: 0.52908784, y: 1.4569657}
   m_Direction: 0
 --- !u!114 &373351750
 MonoBehaviour:
@@ -3265,6 +3267,28 @@ MonoBehaviour:
   _gravity: {fileID: 1742480218}
   _recoilThrust: 20
   _gun: {fileID: 1381922507}
+--- !u!95 &373351761
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373351742}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 99169c65bd7964df5b083bd6cb091c9a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &378442521
 GameObject:
   m_ObjectHideFlags: 0
