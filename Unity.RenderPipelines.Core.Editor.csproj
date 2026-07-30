@@ -217,8 +217,8 @@
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/Analytics/VolumePriorityUsageAnalytic.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/Settings/RenderPipelineGlobalSettingsProvider.deprecated.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/Lighting/ProbeVolume/ProbeGIBaking.SkyOcclusion.cs" />
-    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/Settings/PropertyDrawers/RenderPipelineGraphicsSettingsContainerPropertyDrawer.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/Volume/VolumeEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/Settings/PropertyDrawers/RenderPipelineGraphicsSettingsContainerPropertyDrawer.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/Utilities/LocalizationHelper.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/RemoveAdditionalDataUtils.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@04ab0eefa0c3/Editor/Deprecated.cs" />
