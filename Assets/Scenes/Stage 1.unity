@@ -2948,6 +2948,7 @@ GameObject:
   - component: {fileID: 373351749}
   - component: {fileID: 373351745}
   - component: {fileID: 373351743}
+  - component: {fileID: 373351762}
   - component: {fileID: 373351758}
   - component: {fileID: 373351750}
   - component: {fileID: 373351754}
@@ -3289,6 +3290,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &373351762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373351742}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec23ad2102924d7ba8b74d7d33d7bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoNotDestroy
 --- !u!1 &378442521
 GameObject:
   m_ObjectHideFlags: 0
@@ -4882,7 +4895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 478, y: 359}
+  m_AnchoredPosition: {x: 446, y: 324}
   m_SizeDelta: {x: 571.2201, y: -35.399963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497559955
@@ -18646,7 +18659,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -165, y: -464}
+  m_AnchoredPosition: {x: -209, y: -428}
   m_SizeDelta: {x: 442.61, y: 283.56}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &941249022
@@ -35997,7 +36010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -38179,8 +38192,8 @@ Transform:
   m_GameObject: {fileID: 1700555749}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.70710707, w: 0.70710653}
-  m_LocalPosition: {x: 63.5, y: 18.58, z: 0}
-  m_LocalScale: {x: 10.788871, y: 1, z: 1}
+  m_LocalPosition: {x: 63.5, y: 18.4572, z: 0}
+  m_LocalScale: {x: 11.034857, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1193636082}

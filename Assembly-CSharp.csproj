@@ -132,6 +132,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
     <Compile Include="Assets/Scripts/Doors/DoorTrigger.cs" />
+    <Compile Include="Assets/Scripts/DoNotDestroy.cs" />
     <Compile Include="Assets/Scripts/Instriction/Shooting Instructions.cs" />
     <Compile Include="Assets/Scripts/Gun/GunReloader.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/PlayerConfig.cs" />
