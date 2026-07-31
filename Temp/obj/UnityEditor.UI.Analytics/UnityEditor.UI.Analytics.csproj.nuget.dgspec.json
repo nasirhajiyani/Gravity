@@ -1,0 +1,454 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nasir/Gravity/UnityEditor.UI.Analytics.csproj": {}
+  },
+  "projects": {
+    "/Users/nasir/Gravity/Unity.InternalAPIEngineBridge.004.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nasir/Gravity/Unity.InternalAPIEngineBridge.004.csproj",
+        "projectName": "Unity.InternalAPIEngineBridge.004",
+        "projectPath": "/Users/nasir/Gravity/Unity.InternalAPIEngineBridge.004.csproj",
+        "packagesPath": "/Users/nasir/.nuget/packages/",
+        "outputPath": "/Users/nasir/Gravity/Temp/obj/Unity.InternalAPIEngineBridge.004/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nasir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "framework": "netstandard2.1",
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/nasir/Gravity/UnityEditor.UI.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEditor.UI.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEngine.UI.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nasir/Gravity/Unity.TextMeshPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nasir/Gravity/Unity.TextMeshPro.csproj",
+        "projectName": "Unity.TextMeshPro",
+        "projectPath": "/Users/nasir/Gravity/Unity.TextMeshPro.csproj",
+        "packagesPath": "/Users/nasir/.nuget/packages/",
+        "outputPath": "/Users/nasir/Gravity/Temp/obj/Unity.TextMeshPro/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nasir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "framework": "netstandard2.1",
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/nasir/Gravity/Unity.InternalAPIEngineBridge.004.csproj": {
+                "projectPath": "/Users/nasir/Gravity/Unity.InternalAPIEngineBridge.004.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEditor.UI.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEditor.UI.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEngine.UI.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nasir/Gravity/UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nasir/Gravity/UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "/Users/nasir/Gravity/UnityEditor.TestRunner.csproj",
+        "packagesPath": "/Users/nasir/.nuget/packages/",
+        "outputPath": "/Users/nasir/Gravity/Temp/obj/UnityEditor.TestRunner/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nasir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "framework": "netstandard2.1",
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nasir/Gravity/UnityEditor.UI.Analytics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nasir/Gravity/UnityEditor.UI.Analytics.csproj",
+        "projectName": "UnityEditor.UI.Analytics",
+        "projectPath": "/Users/nasir/Gravity/UnityEditor.UI.Analytics.csproj",
+        "packagesPath": "/Users/nasir/.nuget/packages/",
+        "outputPath": "/Users/nasir/Gravity/Temp/obj/UnityEditor.UI.Analytics/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nasir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "framework": "netstandard2.1",
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/nasir/Gravity/Unity.TextMeshPro.csproj": {
+                "projectPath": "/Users/nasir/Gravity/Unity.TextMeshPro.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEditor.TestRunner.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEditor.UI.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEditor.UI.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEngine.UI.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nasir/Gravity/UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nasir/Gravity/UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "/Users/nasir/Gravity/UnityEditor.UI.csproj",
+        "packagesPath": "/Users/nasir/.nuget/packages/",
+        "outputPath": "/Users/nasir/Gravity/Temp/obj/UnityEditor.UI/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nasir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "framework": "netstandard2.1",
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/nasir/Gravity/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEditor.TestRunner.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj"
+              },
+              "/Users/nasir/Gravity/UnityEngine.UI.csproj": {
+                "projectPath": "/Users/nasir/Gravity/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "/Users/nasir/Gravity/UnityEngine.TestRunner.csproj",
+        "packagesPath": "/Users/nasir/.nuget/packages/",
+        "outputPath": "/Users/nasir/Gravity/Temp/obj/UnityEngine.TestRunner/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nasir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "framework": "netstandard2.1",
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nasir/Gravity/UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nasir/Gravity/UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "/Users/nasir/Gravity/UnityEngine.UI.csproj",
+        "packagesPath": "/Users/nasir/.nuget/packages/",
+        "outputPath": "/Users/nasir/Gravity/Temp/obj/UnityEngine.UI/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nasir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "framework": "netstandard2.1",
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "framework": "netstandard2.1",
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
