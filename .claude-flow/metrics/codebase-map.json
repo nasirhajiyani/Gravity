@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-30T16:24:23.240Z",
+  "timestamp": "2026-08-03T17:32:33.177Z",
   "projectRoot": "/Users/nasir/Gravity",
   "structure": {
     "hasPackageJson": false,
@@ -7,5 +7,5 @@
     "hasClaudeConfig": false,
     "hasClaudeFlow": true
   },
-  "scannedAt": 1785428663240
+  "scannedAt": 1785778353177
 }
