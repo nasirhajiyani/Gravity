@@ -5,49 +5,68 @@
 
 ---
 
-### 🎮 Ключевые механики
+### 🎮 Key mechanics
 
-**1. Инверсия гравитации**
-Способность мгновенно менять вектор падения. Открывает простор для нестандартного платформинга, обхода смертельных ловушек и перемещения по потолку.
+**1. Gravity inversion**
 
- <img width="800" height="595" alt="Gravity1" src="https://github.com/user-attachments/assets/ad472564-a501-463f-8831-bddc3175d3be" />
+The ability to instantly change the fall vector. Opens up space for non-standard platforming, bypassing deadly traps and moving along the ceiling.
 
-**2. Гравитационные колодцы (Gravity Wells)**
-Локальные зоны с измененным притяжением. Игрок может использовать эти поля, чтобы менять плоскость движения на лету или применять физическую инерцию для катапультирования на дальние расстояния.
+<img width="800" height="595" alt="Gravity1" src="https://github.com/user-attachments/assets/ad472564-a501-463f-8831-bddc3175d3be" />
+
+**2. Gravity Wells**
+
+Local zones with altered attraction. The player can use these fields to change the plane of movement on the fly or use physical inertia to eject over long distances.
 
 <img width="800" height="595" alt="Gravity2" src="https://github.com/user-attachments/assets/00bd80c9-f4f5-4837-9b3d-08b033b91d60" />
 
-**3. Хардкорный дизайн уровней**
-Локации требуют высокой точности, микроконтроля, быстрого чтения таймингов и понимания физики движения. Цена ошибки высока, но механики работают предсказуемо и отзывчиво.
+**3. Hardcore level design**
 
- <video src="https://github.com/user-attachments/assets/ad45ce8f-551f-4c45-a8f3-3eb254a1b63f" autoplay loop muted playsinline width="100%"></video>
+Locations require high accuracy, microcontrol, fast timing reading and understanding of motion physics. The price of a mistake is high, but the mechanics work predictably and responsively.
+
+<video src="https://github.com/user-attachments/assets/ad45ce8f-551f-4c45-a8f3-3eb254a1b63f" autoplay loop muted playsinline width="100%"></video>
 
 <details>
-<summary><b>🎬 Развернуть галерею геймплея (Еще 4 гифки)</b></summary>
+
+<summary><b>🎬 Expand gameplay gallery (4 more gifs)</b></summary>
+
 <br>
- <video src="https://github.com/user-attachments/assets/672eac26-d26a-43f4-a248-b50dc4c48481" autoplay loop muted playsinline width="100%"></video>
- <video src="https://github.com/user-attachments/assets/5acc636c-5044-4ccd-89d8-6d6c83b01779" autoplay loop muted playsinline width="100%"></video>
- <video src="https://github.com/user-attachments/assets/22350cec-1200-4ec9-ac9d-55bfdf7ce96a" autoplay loop muted playsinline width="100%"></video>
- <video src="https://github.com/user-attachments/assets/08d34b1e-d363-4ab0-8752-16d787dcd8bb" autoplay loop muted playsinline width="100%"></video>
+
+<video src="https://github.com/user-attachments/assets/672eac26-d26a-43f4-a248-b50dc4c48481" autoplay loop muted playsinline width="100%"></video>
+
+<video src="https://github.com/user-attachments/assets/5acc636c-5044-4ccd-89d8-6d6c83b01779" autoplay loop muted playsinline width="100%"></video>
+
+<video src="https://github.com/user-attachments/assets/22350cec-1200-4ec9-ac9d-55bfdf7ce96a" autoplay loop muted playsinline width="100%"></video>
+
+<video src="https://github.com/user-attachments/assets/08d34b1e-d363-4ab0-8752-16d787dcd8bb" autoplay loop muted playsinline width="100%"></video>
+
 </details>
 
 ---
 
-### 🛠 Техническая реализация (Unity / C#)
-Архитектура проекта выстроена с прицелом на модульность и легкость масштабирования, опираясь на принципы **SOLID** и компонентный подход Unity:
-* **Изолированная физика:** Вся логика манипуляции гравитацией разбита на независимые компоненты. Классы `GravityWellInteraction` и `GravityInverter` инкапсулируют логику локальных полей и инверсии, не перегружая основной контроллер игрока.
-* **Разделение ответственности:** Системы считывания ввода, обработки перемещения и реакции на окружение (шипы, платформы) изолированы друг от друга. Это позволяет легко конструировать новые типы гравитационных аномалий и расширять функционал без изменения ядра физики.
+### 🛠 Technical implementation (Unity / C#)
+
+The architecture of the project is built with a look at modularity and ease of scaling, based on the principles of **SOLID** and the Unity component approach:
+
+* **Isolated physics:** All the logic of gravity manipulation is broken down into independent components. Classes `GravityWellInteraction` and `GravityInverter` encapsulate the logic of local fields and inversions without overloading the main controller of the player.
+
+* **Separation of responsibility:** Input reading systems, movement processing and reaction to the environment (spikes, platforms) are isolated from each other. This makes it easy to construct new types of gravitational anomalies and expand the functionality without changing the core of physics.
 
 ---
 
-### 🕹️ Управление / Controls
+### 🕹️ Management / Controls
 
-Игра полностью поддерживает как классическую раскладку мышь + клавиатура, так и управление с геймпада:
+The game fully supports both the classic mouse + keyboard layout and control from the gamepad:
 
-| Действие / Action | ⌨️ Клавиатура и мышь | 🎮 Геймпад |
+| Action | ⌨️ Keyboard and mouse | 🎮 Gamepad |
+
 | :--- | :--- | :--- |
-| **Перемещение** | `A` / `D` | Left Stick (Влево / Вправо) |
-| **Прыжок** | `Space` | Кнопка `A` |
-| **Инверсия гравитации** | `Shift` | Правый триггер (`RT`) |
-| **Режим установки колодца** | Удерживать `E` | Левый триггер (`LT`) |
-| **Подтвердить установку** | `ЛКМ` (Левая кнопка мыши) | Правый бампер (`RB`) |
+
+| **Move** | `A` / `D` | Left Stick (Left / Right) |
+
+| **Jump** | `Space` | Button `A` |
+
+| **Gravity inversion** | `Shift` | Right trigger (`RT`) |
+
+| **Well installation mode** | Hold `E` | Left trigger (`LT`) |
+
+| **Confirm installation** | `LCM` (Left mouse button) | Right bumper (`RB`) |
